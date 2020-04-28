@@ -21,76 +21,76 @@ foot<- argonFooter(
         argonFooterItem(HTML("&copy; Murat Tarakci, 2020"))
       ))))
 nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
-                  style="background-color: #ffffff;",
-                  id="primary-navigation",
-                  tags$div(class="container",
-                           tags$div(
-                             class="d-flex flex-grow-1",
-                             tags$span(class="w-100 d-lg-none d-block"),
-                             # tags$a(class="navbar-brand",
-                             #        tags$img(src="www/Logo.svg",height="600",class="d-inline-block align-top",alt="brand"),
-                             #        #tags$p('agilenow',class="text-primary font-weight-bold",style="font-size:25px;"),
-                             #        href='index.html'),
-                             tags$div(class="w-100 text-right",
-                                      tags$button(class="navbar-toggler",
-                                                  type="button",
-                                                  `data-toggle`="collapse",
-                                                  `data-target`="#mainNavBar",
-                                                  `aria-controls`='mainNavBar',
-                                                  `aria-expanded`="false",
-                                                  `aria-label`="Toggle navigation",
-                                                  tags$span(class="navbar-toggler-icon",
-                                                            tags$i(class="fa fa-navicon"))
-                                      )
-                             )
-                           ),
-                           tags$div(class="collapse navbar-collapse flex-grow-1 text-right",
-                                    id="mainNavBar",
-                                    tags$div(
-                                      class = "navbar-collapse-header",
-                                      tags$div( 
-                                        class = "row",
-                                        tags$div(
-                                          class = "col-6 collapse-brand",
-                                          tags$img(src="www/Logo.svg",height="600",class="d-inline-block align-top",alt="brand")
-                                        ),
-                                        tags$div( 
-                                          class = "col-6 collapse-close",
-                                          tags$button(
-                                            type = "button", 
-                                            class = "navbar-toggler", 
-                                            `data-toggle` = "collapse", 
-                                            `data-target` = '#mainNavBar', 
-                                            `aria-controls` = 'mainNavBar', 
-                                            `aria-expanded` = "true", 
-                                            `aria-label` = "Toggle navigation",
-                                            color='black',
-                                            tags$span(),
-                                            tags$span()
-                                          ))
-                                        )),
-                                    tags$ul(
-                                      class="navbar-nav ml-auto",
-                                      tags$li(class="nav-item",tags$a("Home",href="index.html",class="nav-link")),
-                                      tags$li(class="nav-item ",tags$a("Calendar View",href="services.html",class="nav-link")
-                                              #argonDropdown(name="Services",argonDropdownItem(name="ING Vysya",src = 'https://agilenow.ai/ING/'),
-                                              #argonDropdownItem(name="Demo",src = 'https://agilenow.ai/demo/'))
-                                      )
-                                      
-                                      #tags$li(class="nav-item",tags$a("Blog",href="#comingsoon",class="nav-link")),
-                                    #  tags$li(class="nav-item",tags$a("About",href="about.html",class="nav-link")),
-                                    #  tags$li(class="nav-item",tags$a("See the seminar calendar",href="calendar.html",class="nav-link"))
-                                      
-                                      
-                                      
-                                    )
-                           )
-                  )
+               style="background-color: #ffffff;",
+               id="primary-navigation",
+               tags$div(class="container",
+                        tags$div(
+                          class="d-flex flex-grow-1",
+                          tags$span(class="w-100 d-lg-none d-block"),
+                          # tags$a(class="navbar-brand",
+                          #        tags$img(src="www/Logo.svg",height="600",class="d-inline-block align-top",alt="brand"),
+                          #        #tags$p('agilenow',class="text-primary font-weight-bold",style="font-size:25px;"),
+                          #        href='index.html'),
+                          tags$div(class="w-100 text-right",
+                                   tags$button(class="navbar-toggler",
+                                               type="button",
+                                               `data-toggle`="collapse",
+                                               `data-target`="#mainNavBar",
+                                               `aria-controls`='mainNavBar',
+                                               `aria-expanded`="false",
+                                               `aria-label`="Toggle navigation",
+                                               tags$span(class="navbar-toggler-icon",
+                                                         tags$i(class="fa fa-navicon"))
+                                   )
+                          )
+                        ),
+                        tags$div(class="collapse navbar-collapse flex-grow-1 text-right",
+                                 id="mainNavBar",
+                                 tags$div(
+                                   class = "navbar-collapse-header",
+                                   tags$div( 
+                                     class = "row",
+                                     tags$div(
+                                       class = "col-6 collapse-brand",
+                                       tags$img(src="www/Logo.svg",height="600",class="d-inline-block align-top",alt="brand")
+                                     ),
+                                     tags$div( 
+                                       class = "col-6 collapse-close",
+                                       tags$button(
+                                         type = "button", 
+                                         class = "navbar-toggler", 
+                                         `data-toggle` = "collapse", 
+                                         `data-target` = '#mainNavBar', 
+                                         `aria-controls` = 'mainNavBar', 
+                                         `aria-expanded` = "true", 
+                                         `aria-label` = "Toggle navigation",
+                                         color='black',
+                                         tags$span(),
+                                         tags$span()
+                                       ))
+                                   )),
+                                 tags$ul(
+                                   class="navbar-nav ml-auto",
+                                   tags$li(class="nav-item",tags$a("Home",href="index.html",class="nav-link")),
+                                   tags$li(class="nav-item ",tags$a("Calendar View",href="services.html",class="nav-link")
+                                           #argonDropdown(name="Services",argonDropdownItem(name="ING Vysya",src = 'https://agilenow.ai/ING/'),
+                                           #argonDropdownItem(name="Demo",src = 'https://agilenow.ai/demo/'))
+                                   )
+                                   
+                                   #tags$li(class="nav-item",tags$a("Blog",href="#comingsoon",class="nav-link")),
+                                   #  tags$li(class="nav-item",tags$a("About",href="about.html",class="nav-link")),
+                                   #  tags$li(class="nav-item",tags$a("See the seminar calendar",href="calendar.html",class="nav-link"))
+                                   
+                                   
+                                   
+                                 )
+                        )
+               )
 )
 
 homepage<-argonPage(
-  title = "Seminars.Management Home",
-  author = "Siddharth",
+  title = "Seminars in Management",
+  author = "Murat",
   description= "Website to store online management seminars",
   navbar<-nav,
   
@@ -107,7 +107,7 @@ homepage<-argonPage(
           width = 6,
           argonH1(
             display = 3, 
-            "Online seminars on management"
+            "Online Management Seminars"
             # , 
             # htmltools::span("with the power of Machine Learning")
           ) %>% argonTextColor(color = "black"),
@@ -123,18 +123,29 @@ homepage<-argonPage(
           tags$script(src = "inst/assets/js/typewriter.js"),
           br(),
           br()
-          ),
+        ),
         argonColumn(
           width = 6,
-          tags$iframe(
-            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FAmsterdam&amp;src=cWF2bzRyaDEzbjY0YTViZTBuNjF1N3A4ZWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F6BF26&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA"
-          ),
+          
+          # tags$script(src='inst/assets/fullcalendar/packages/core/main.js'),
+          # tags$script(src='inst/assets/fullcalendar/packages/google-calendar/main.js')
+          tags$script(src="https:/localendar.com/public/managementseminars?style=W1&include=Y&dynamic=Y"),
+          
+         # tags$script(src="inst/assets/js/PublishedResponsiveIframe.js",
+        #  tags$iframe(src="https://localendar.com/public/managementseminars?style=D5&show_past=N", "width:100%", id="localendar-iframe")),
+          # tags$script(src="https://cdn.polyfill.io/v3/polyfill.min.js?version=3.52.1&features=Array.prototype.forEach,console,Date.prototype.toISOString,document,Intl,Map,Promise,Set"),
+          # tags$script(src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"),
+          # tags$script(src="https://unpkg.com/dayjs@1.8.23/plugin/localizedFormat.js"),
+          # #tags$script(dayjs.extend(window.dayjs_plugin_localizedFormat)),
+          # tags$script(src="https://apis.google.com/js/api.js"),
+          # # 
+          #  tags$script(src = "inst/assets/js/google-calendar.js"),
           br()
           
         )
-        )
-  )),
-footer = foot
+      )
+    )),
+  footer = foot
 )
 argonPageTemplate(filename = "index",path=homepath , homepage)
 
@@ -158,16 +169,16 @@ about<-argonPage(
             
             # stat items
             
-              # profile image
-              
-                tags$div(
-                  class = "card-profile-image",
-                  tags$a(
-                    href = NULL,
-                    img(src =  "www/profile.jpeg", class = "rounded-circle")
-                  )
-                )
-              
+            # profile image
+            
+            tags$div(
+              class = "card-profile-image",
+              tags$a(
+                href = NULL,
+                img(src =  "www/profile.jpeg", class = "rounded-circle")
+              )
+            )
+            
             
           ),
           
@@ -226,7 +237,7 @@ testm<-argonSection(
         "Argon is a great free UI package based on Bootstrap 4
         that includes the most important components and features."
       ) %>% argonTooltip(position = "left", title = "I am a nice card")
-      ),
+    ),
     argonColumn(
       width = 4,
       argonCard(
@@ -240,7 +251,7 @@ testm<-argonSection(
         "Argon is a great free UI package based on Bootstrap 4
         that includes the most important components and features"
       ) %>% argonTooltip(position = "top", title = "I am a nice card")
-      ),
+    ),
     argonColumn(
       width = 4,
       argonCard(
@@ -254,16 +265,16 @@ testm<-argonSection(
         "Argon is a great free UI package based on Bootstrap 4
         that includes the most important components and features"
       ) %>% argonTooltip(position = "bottom", title = "I am a nice card")
-      )
     )
-    )
+  )
+)
 services<-argonPage(
   title = "seminars.Management",
   author = "Murat",
   description= "Create a seminar",
   navbar<-nav,
   body<- 
-  body <- argonSection(
+    body <- argonSection(
       size = "lg",
       status = "#f6f9fc",
       gradient = TRUE,
@@ -274,10 +285,11 @@ services<-argonPage(
         argonRow(
           argonColumn(
             width = 12,
-            tags$iframe(
-            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FAmsterdam&amp;src=cWF2bzRyaDEzbjY0YTViZTBuNjF1N3A4ZWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F6BF26&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0", style="border-width:0", width="800", height="600", frameborder="0", scrolling="no"
-            )
+            
+          tags$script(src="https://localendar.com/public/managementseminars?include=Y&dynamic=Y")
+                       
           )
+                    
         )
       )),
   # testimonials <- testm
@@ -314,16 +326,16 @@ contact <- argonPage(
         ),
         argonColumn(
           width = 6,
-                 tags$h2('Address'),
-                 tags$address(
-                   tags$strong("Burgemeester Oudlaan 50"),
-                   br(),
-                   "3062 PA Rotterdam,",
-                   br(),
-                   "The Netherlands",
-                   br(),
-                   tags$a("Contact Me", href = "mailto:tarakci@rsm.nl")
-                 ))
+          tags$h2('Address'),
+          tags$address(
+            tags$strong("Burgemeester Oudlaan 50"),
+            br(),
+            "3062 PA Rotterdam,",
+            br(),
+            "The Netherlands",
+            br(),
+            tags$a("Contact Me", href = "mailto:tarakci@rsm.nl")
+          ))
       )
     ),
   
