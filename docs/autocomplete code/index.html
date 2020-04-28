@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete - Default functionality</title>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-1.12.4.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var availableTags = [
+		"Grace Lizotte",
+		"Abram Tietz",
+		"Yee Julius",
+		"Cherly Bomgardner",
+		"Bulah Britto"
+    ];
+    $( "#colleague1" ).autocomplete({source: availableTags});
+	$( "#colleague2" ).autocomplete({source: availableTags});
+	$( "#colleague3" ).autocomplete({source: availableTags});
+	$( "#colleague4" ).autocomplete({source: availableTags});
+	$( "#colleague5" ).autocomplete({source: availableTags});
+	$( "#colleague6" ).autocomplete({source: availableTags});
+	$( "#colleague7" ).autocomplete({source: availableTags});
+	$( "#colleague8" ).autocomplete({source: availableTags});
+	$( "#colleague9" ).autocomplete({source: availableTags});
+  } );
+  </script>
+</head>
+<body>
+ 
+<div class="ui-widget">
+  <label for="colleague1">Colleague 1 : </label><input id="colleague1"> <br/>
+  <label for="colleague2">Colleague 2 : </label><input id="colleague2"> <br/>
+  <label for="colleague3">Colleague 3 : </label><input id="colleague3"> <br/>
+  <label for="colleague4">Colleague 4 : </label><input id="colleague4"> <br/>
+  <label for="colleague5">Colleague 5 : </label><input id="colleague5"> <br/>
+  <label for="colleague6">Colleague 6 : </label><input id="colleague6"> <br/>
+  <label for="colleague7">Colleague 7 : </label><input id="colleague7"> <br/>
+  <label for="colleague8">Colleague 8 : </label><input id="colleague8"> <br/>
+  <label for="colleague9">Colleague 9 : </label><input id="colleague9"> <br/>
+</div>
+ 
+ 
+</body>
+</html>

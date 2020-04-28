@@ -1,10 +1,10 @@
 if (!require('pacman'))install.packages('pacman')
 pacman::p_load(shiny, argonR, argonDash, magrittr)
-#homepath = 'C:/Users/44335mta/Dropbox (RSM)/SkyDrive/Documents/Companies and data/AgileNow.ai/homePage/public'
+#homepath = 'C:/Users/44335mta/Dropbox (RSM)/SkyDrive/Documents/Companies and data/AgileNow.ai/homePage/docs'
 #git reset --hard
 
-#homepath = '/srv/shiny-server/seminarsManagement/public'
-homepath = './public'
+#homepath = '/srv/shiny-server/seminarsManagement/docs'
+homepath = './docs'
 # argonInstall(path=homepath)
 # argonInstall(path=paste0(homepath,'/about'))
 
