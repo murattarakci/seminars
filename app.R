@@ -128,7 +128,7 @@ homepage<-argonPage(
           width = 6,
           
           # tags$script(src='inst/assets/fullcalendar/packages/core/main.js'),
-          # tags$script(src='inst/assets/fullcalendar/packages/google-calendar/main.js')
+          # tags$script(src='inst/assets/fullcalendar/packages/google-calendar/main.js') 
           tags$script(src="https://localendar.com/public/managementseminars?style=M1&show_past=N&include=Y&dynamic=Y"),
           
          # tags$script(src="inst/assets/js/PublishedResponsiveIframe.js",
