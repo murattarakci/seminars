@@ -72,7 +72,7 @@ nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
                                  tags$ul(
                                    class="navbar-nav ml-auto",
                                    tags$li(class="nav-item",tags$a("Hapenning soon",href="index.html",class="nav-link")),
-                                   tags$li(class="nav-item ",tags$a("Calendar View",href="services.html",class="nav-link")
+                                   tags$li(class="nav-item ",tags$a("See the calendar",href="services.html",class="nav-link")
                                            #argonDropdown(name="Services",argonDropdownItem(name="ING Vysya",src = 'https://agilenow.ai/ING/'),
                                            #argonDropdownItem(name="Demo",src = 'https://agilenow.ai/demo/'))
                                    )
