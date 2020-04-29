@@ -17,12 +17,16 @@ foot<- argonFooter(
       copyrights = "Murat Tarakci, 2020",
       src = "https://github.com/murattarakci",
       argonFooterMenu(
-        argonFooterItem("Contact Me", src = "mailto:tarakci@rsm.nl"),
-        argonFooterItem("Your help and feedback are welcome. Murat Tarakci")
+
+        tags$a(href = "mailto:tarakci@rsm.nl", target = "_blank", tags$span(class = "fa fa-envelope fa")),
+        argonFooterItem(""),
+        tags$a(href = "https://twitter.com/ManagementSemi2", target = "_blank", tags$span(class = "fa fa-twitter fa ")),
+        argonFooterItem("Your help and feedback are welcome.")
+          
       )),
     argonRow(
       argonFooterMenu(
-        argonFooterItem("Disclaimer: Visitors are free to add events. I am not responsible for the content of those events.")
+        argonFooterItem("Disclaimer: Visitors are free to add events. I (Murat Tarakci) am not responsible for the content of those events.")
       ))
     ))
 nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
