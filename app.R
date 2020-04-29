@@ -71,7 +71,7 @@ nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
                                    )),
                                  tags$ul(
                                    class="navbar-nav ml-auto",
-                                   tags$li(class="nav-item",tags$a("Home",href="index.html",class="nav-link")),
+                                   tags$li(class="nav-item",tags$a("Hapenning soon",href="index.html",class="nav-link")),
                                    tags$li(class="nav-item ",tags$a("Calendar View",href="services.html",class="nav-link")
                                            #argonDropdown(name="Services",argonDropdownItem(name="ING Vysya",src = 'https://agilenow.ai/ING/'),
                                            #argonDropdownItem(name="Demo",src = 'https://agilenow.ai/demo/'))
@@ -129,7 +129,9 @@ homepage<-argonPage(
           
           # tags$script(src='inst/assets/fullcalendar/packages/core/main.js'),
           # tags$script(src='inst/assets/fullcalendar/packages/google-calendar/main.js')  
-          tags$script(src="https://localendar.com/public/managementseminars?style=M1&show_past=N&include=Y&dynamic=Y"),
+          #tags$script(src="https://localendar.com/public/managementseminars?style=M1&show_past=N&include=Y&dynamic=Y"),
+          
+          tags$script(src="https://localendar.com/public/managementseminars?style=D2&include=Y&dynamic=Y"),
           
          # tags$script(src="inst/assets/js/PublishedResponsiveIframe.js",
         #  tags$iframe(src="https://localendar.com/public/managementseminars?style=D5&show_past=N", "width:100%", id="localendar-iframe")),
