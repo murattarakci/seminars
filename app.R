@@ -18,8 +18,13 @@ foot<- argonFooter(
       src = "https://github.com/murattarakci",
       argonFooterMenu(
         argonFooterItem("Contact Me", src = "mailto:tarakci@rsm.nl"),
-        argonFooterItem(HTML("&copy; Murat Tarakci, 2020"))
-      ))))
+        argonFooterItem("Your help and feedback are welcome. Murat Tarakci")
+      )),
+    argonRow(
+      argonFooterMenu(
+        argonFooterItem("Disclaimer: Visitors are free to add events. I am not responsible for the content of those events.")
+      ))
+    ))
 nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
                style="background-color: #ffffff;",
                id="primary-navigation",
@@ -50,10 +55,10 @@ nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
                                    class = "navbar-collapse-header",
                                    tags$div( 
                                      class = "row",
-                                     tags$div(
-                                       class = "col-6 collapse-brand",
-                                       tags$img(src="www/Logo.svg",height="600",class="d-inline-block align-top",alt="brand")
-                                     ),
+                                     # tags$div(
+                                     #   class = "col-6 collapse-brand",
+                                     #   tags$img(src="www/Logo.svg",height="600",class="d-inline-block align-top",alt="brand")
+                                     # ),
                                      tags$div( 
                                        class = "col-6 collapse-close",
                                        tags$button(
@@ -72,7 +77,7 @@ nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
                                  tags$ul(
                                    class="navbar-nav ml-auto",
                                    tags$li(class="nav-item",tags$a("Hapenning soon",href="index.html",class="nav-link")),
-                                   tags$li(class="nav-item ",tags$a("See the calendar",href="services.html",class="nav-link")
+                                   tags$li(class="nav-item ",tags$a("Calendar view",href="services.html",class="nav-link")
                                            #argonDropdown(name="Services",argonDropdownItem(name="ING Vysya",src = 'https://agilenow.ai/ING/'),
                                            #argonDropdownItem(name="Demo",src = 'https://agilenow.ai/demo/'))
                                    )
