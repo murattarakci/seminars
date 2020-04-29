@@ -18,15 +18,15 @@ foot<- argonFooter(
       src = "https://github.com/murattarakci",
       argonFooterMenu(
 
+        argonFooterItem("Your help and feedback are welcome."),
         tags$a(href = "mailto:tarakci@rsm.nl", target = "_blank", tags$span(class = "fa fa-envelope fa")),
         argonFooterItem(""),
-        tags$a(href = "https://twitter.com/ManagementSemi2", target = "_blank", tags$span(class = "fa fa-twitter fa ")),
-        argonFooterItem("Your help and feedback are welcome.")
+        tags$a(href = "https://twitter.com/ManagementSemi2", target = "_blank", tags$span(class = "fa fa-twitter fa "))
           
       )),
     argonRow(
       argonFooterMenu(
-        argonFooterItem("Disclaimer: Visitors are free to add events. I (Murat Tarakci) am not responsible for the content of those events.")
+        argonFooterItem("Disclaimer: Visitors are free to add events. I (Murat Tarakci) am not responsible for what is added or for the content of those events.")
       ))
     ))
 nav<- tags$nav(class="navbar navbar-expand-lg navbar-light bg-lignt",
