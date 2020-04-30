@@ -122,11 +122,11 @@ homepage<-argonPage(
           ) %>% argonTextColor(color = "black"),
           argonLead(
             "Many seminars and conferences are taking place online because of the ongoing Covid-19 pandemic. 
-            This web page serves as a repository for all of these events. "
+            This web page serves as a community-contributed repository for all of these events. "
           ) %>% argonTextColor(color = "gray"),
           argonLead(
-            "You can ",
-            tags$a(`data-type`='[ "follow seminars ...", "create seminars ...", "join seminars ...!"]',
+            "Please add your ",
+            tags$a(`data-type`='[ "seminars ...", "conferences ...", "events ...!"]',
                    href="",class="typewrite",`data-period`="200",tags$span(class="wrap"))
           ),
           tags$script(src = "inst/assets/js/typewriter.js"),
