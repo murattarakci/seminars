@@ -40,8 +40,8 @@ Docs & License: https://fullcalendar.io/
     var API_BASE = 'https://www.googleapis.com/calendar/v3/calendars';
     var STANDARD_PROPS = {
         url: String,
-        googleCalendarApiKey: String,
-        googleCalendarId: String,
+        googleCalendarApiKey: 'AIzaSyBjl0Qiw5oYbBoALUElQEAIIEb527cAwjw',
+        googleCalendarId: 'qavo4rh13n64a5be0n61u7p8eg@group.calendar.google.com',
         googleCalendarApiBase: String,
         data: null
     };
