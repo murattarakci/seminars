@@ -298,13 +298,10 @@ services<-argonPage(
             width = 12,
         #tags$iframe(src="https://www.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FAmsterdam&amp;src=cWF2bzRyaDEzbjY0YTViZTBuNjF1N3A4ZWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=NXM1b2pncXRvNW52djQxOW4xdTloam82YTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F6BF26&amp;color=%23F4511E&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0", style="border-width:0", width="800", height="600", frameborder="0", scrolling="no")  
 
-        tags$script(src="https://cdn.jsdelivr.net/npm/moment@2/moment.min.js"),
-        tags$script(src="https://apis.google.com/js/api.js"),
-        tags$script(src= "/inst/assets/js/google-calendar.js")
-        
+
 
         #tags$script(src="http://gmodules.com/ig/ifr?url=https://www.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FAmsterdam&amp;src=cWF2bzRyaDEzbjY0YTViZTBuNjF1N3A4ZWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=NXM1b2pncXRvNW52djQxOW4xdTloam82YTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F6BF26&amp;color=%23F4511E&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp")
-        #tags$script(src="https://localendar.com/public/managementseminars?include=Y&dynamic=Y") 
+        tags$script(src="https://localendar.com/public/managementseminars?include=Y&dynamic=Y") 
                        
           )
                     
